@@ -70,6 +70,7 @@ body {
 }
 
 .hero-button {
+    font-family: "Roboto", sans-serif;
     background: #4d5ae5;
     font-weight: 500;
     font-size: 16px;
@@ -80,11 +81,11 @@ body {
 }
 
 .hero-button:hover {
-    color: #404bbf;
+    background-color: #404bbf;
 }
 
 .hero-button:focus {
-    color: #404bbf;
+    background-color: #404bbf;
 }
 
 /* Section Features */
@@ -112,10 +113,15 @@ body {
 .team-title {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    text-transform: capitalize;
+}
+
+.team-list-item {
+    background-color: #ffffff;
 }
 
 .team-list-title {
@@ -140,9 +146,10 @@ body {
 .portfolio title {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
+    text-transform: capitalize;
     color: #2e2f42;
 }
 
