@@ -111,7 +111,6 @@ body {
 }
 
 .team-title {
-    font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
@@ -143,8 +142,7 @@ body {
 }
 
 /* Section Portfolio */
-.portfolio title {
-    font-weight: 700;
+.portfolio-title {
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
